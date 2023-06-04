@@ -16,6 +16,8 @@ A *minimal* STM32MP151 single-board-computer PCB, designed in KiCad, based on a 
 ## Hardware
 
 * [Schematic](schematic.pdf)
+* [PCB available from OSH Park](https://oshpark.com/shared_projects/CuSocwHZ)
+* [Parts list](https://www.digikey.com.au/en/mylists/list/Z7PZFZ0LWC)
 
 ### Specifications
 * STM32MP151 ARM Cortex A7 running at 650MHz
@@ -28,8 +30,6 @@ A *minimal* STM32MP151 single-board-computer PCB, designed in KiCad, based on a 
 * 3.5mm Audio Out
 
 ### Parts
-* [Parts list](https://www.digikey.com.au/en/mylists/list/Z7PZFZ0LWC)
-  
 A parts list is available on Digikey with **most** of the components, as well as the included [BoM file](STM32MP151_Dev_Board.csv). Please double check the Digikey parts list against the BoM before ordering, in case some components are missing. The [MYiR SoM](https://au.mouser.com/ProductDetail/MYIR/MYC-YA151C-256N256D-65-C-T?qs=e8oIoAS2J1SxKfhSw3h3gA%3D%3D) is only available from Mouser or directly from the manufacturer.
 
 ## Assembly
