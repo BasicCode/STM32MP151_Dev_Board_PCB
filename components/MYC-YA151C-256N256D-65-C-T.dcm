@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MYC-YA151C-256N256D-65-C-T
+D Embedded Module ARM Cortex-A7, ARM Cortex-M4 650MHz 256MB 256MB
+K
+F https://www.myirtech.com/download/STM32/MYC-YA15XC-T-ProductManual.pdf
+$ENDCMP
+#
+#End Doc Library

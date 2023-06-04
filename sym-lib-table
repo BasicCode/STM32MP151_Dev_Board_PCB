@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MYC-YA151C-256N256D-65-C-T")(type "KiCad")(uri "${KIPRJMOD}/MYC-YA151C-256N256D-65-C-T.kicad_sym")(options "")(descr ""))
+  (lib (name "antenna")(type "KiCad")(uri "${KIPRJMOD}/antenna.kicad_sym")(options "")(descr ""))
+  (lib (name "DM3AT-SF-PEJM5")(type "KiCad")(uri "${KIPRJMOD}/DM3AT-SF-PEJM5.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP8285")(type "KiCad")(uri "${KIPRJMOD}/ESP8285.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM3060PWR")(type "KiCad")(uri "${KIPRJMOD}/components/PCM3060PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "components")(type "KiCad")(uri "${KIPRJMOD}/components/components.kicad_sym")(options "")(descr ""))
+)

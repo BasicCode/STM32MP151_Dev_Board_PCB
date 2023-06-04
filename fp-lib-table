@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MYC_YA151")(type "KiCad")(uri "C:/Users/tommy/OneDrive/Documents/KiCad/MYC_YA151.pretty")(options "")(descr "")(disabled))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr "")(disabled))
+  (lib (name "PCM3060")(type "KiCad")(uri "${KIPRJMOD}/components/PCM3060.pretty")(options "")(descr ""))
+  (lib (name "esp8285")(type "KiCad")(uri "${KIPRJMOD}/components/esp8285.pretty")(options "")(descr ""))
+  (lib (name "components")(type "KiCad")(uri "${KIPRJMOD}/components.pretty")(options "")(descr ""))
+)
