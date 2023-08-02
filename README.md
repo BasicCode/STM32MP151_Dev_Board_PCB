@@ -8,6 +8,7 @@ A *minimal* STM32MP151 single-board-computer PCB, designed in KiCad, based on a 
 **NOTE** that this project is a learning process and I a have no professional experience with PCB layout - don't use this as a reference design. That said, if it works for your purpose, please feel free to modify or use it.
 
 ![Citcuit Board](board_3d_top.png)
+![Circuit Board](board_3d_bottom.png)
 
 ## Software
 
