@@ -1,13 +1,14 @@
 # STM32MP151 Dev Board
 **Rev B**
   
-**Currently untested and my not even work.**
+**NOTE: There are issues with this board. The WiFi, and the sound do not work (yes, that's basically all of the peripherals).**
   
 A *minimal* STM32MP151 single-board-computer PCB, designed in KiCad, based on a [MYiR SoM](https://au.mouser.com/ProductDetail/MYIR/MYC-YA151C-256N256D-65-C-T?qs=e8oIoAS2J1SxKfhSw3h3gA%3D%3D). This project is intended as a minimal implementation of an ARM based Linux system used for learning Buildroot, the Linux kernel, the device tree system, and PCB design. The design uses hand-solderable parts (intermediate skill level), a 2-layer PCB design which can be manufactured by any PCB manufacturer, and a minimal set of peripherals.
   
 **NOTE** that this project is a learning process and I a have no professional experience with PCB layout - don't use this as a reference design. That said, if it works for your purpose, please feel free to modify or use it.
 
 ![Citcuit Board](board_3d_top.png)
+![Circuit Board](board_3d_bottom.png)
 
 ## Software
 
@@ -36,4 +37,6 @@ A parts list is available on Digikey with **most** of the components, as well as
 Components can be soldered by hand with some difficulty and patience. Some peripherals which are more difficult to solder (like WiFi), or not needed, can be left unpopulated. The minimum working example for this system is just the system-on-module, and the *UART* or *SWDIO* header, however this isn't very useful or interesting and so the other peripherals are included for fun.
 
 ## Bugs
+* WiFi chipset doesn't seem to work. I believe it is connected correctly, Linux seems to recognise the chip and attempt to load the driver, however the driver fails to load.
+* There is an error in the SAI audio hookup. Master clock, and SCLK are swapped. This will require either cutting the tracks and soldering a bodge, or a board revision.
 Expect a LOT.
