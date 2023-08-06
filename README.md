@@ -38,5 +38,4 @@ Components can be soldered by hand with some difficulty and patience. Some perip
 
 ## Bugs
 * WiFi chipset doesn't seem to work. I believe it is connected correctly, Linux seems to recognise the chip and attempt to load the driver, however the driver fails to load.
-* There is an error in the SAI audio hookup. Master clock, and SCLK are swapped. This will require either cutting the tracks and soldering a bodge, or a board revision.
-Expect a LOT.
+* The PCM3060 audio chipset has not been tested yet. May not even work.
