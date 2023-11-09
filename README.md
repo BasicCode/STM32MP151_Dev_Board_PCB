@@ -3,6 +3,8 @@
   
 **NOTE: There are issues with this board. The WiFi, and the sound do not work (yes, that's basically all of the peripherals).**
   
+**NOTE:** I have moved on from this project and it is no longer maintained. You can find some progress on my [STM32MP135 board](https://github.com/BasicCode/STM32MP135_Dev_Board_Buildroot).
+
 A *minimal* STM32MP151 single-board-computer PCB, designed in KiCad, based on a [MYiR SoM](https://au.mouser.com/ProductDetail/MYIR/MYC-YA151C-256N256D-65-C-T?qs=e8oIoAS2J1SxKfhSw3h3gA%3D%3D). This project is intended as a minimal implementation of an ARM based Linux system used for learning Buildroot, the Linux kernel, the device tree system, and PCB design. The design uses hand-solderable parts (intermediate skill level), a 2-layer PCB design which can be manufactured by any PCB manufacturer, and a minimal set of peripherals.
   
 **NOTE** that this project is a learning process and I a have no professional experience with PCB layout - don't use this as a reference design. That said, if it works for your purpose, please feel free to modify or use it.
